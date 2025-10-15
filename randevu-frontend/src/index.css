@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* YÜKSEK KONTRASTLI NAVBAR TASARIMI */
+.navbar-bold {
+    background-color: #161c2d;
+    padding: 1rem 0;
+    border-bottom: 1px solid #2a3140;
+}
+
+.navbar-bold .navbar-brand,
+.navbar-bold .dropdown-toggle {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+.navbar-bold .navbar-brand {
+    font-size: 1.6rem;
+}
+
+/* --- DEĞİŞİKLİK BURADA: TÜM LİNKLER İÇİN GENEL KURAL --- */
+.navbar-bold .nav-link,
+.navbar-bold .btn {
+    /* Linklerin varsayılan alt çizgisini ve mavi rengini kaldırır */
+    text-decoration: none !important;
+}
+
+.navbar-bold .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-bold .nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* YENİ VE GÖZ ALICI BUTON TASARIMLARI */
+.btn-bold-outline {
+    border: 2px solid #FFD700;
+    color: #FFD700 !important; /* Metin rengini altın sarısı olmaya zorla */
+    background-color: transparent;
+    border-radius: 50px;
+    font-weight: 700;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-bold-outline:hover {
+    background-color: #FFD700;
+    color: #fde8b6 !important;
+}
+
+.btn-bold-primary {
+    background-color: #fddf1d;
+    color: #67ffa2 !important; /* Metin rengini koyu olmaya zorla */
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    padding: 12px 28px;
+    transition: all 0.3s ease;
+}
+
+.btn-bold-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 25px rgba(255, 215, 0, 0.35);
+}
+
+/* --- İSTENEN ALTIN RENGİ IŞIKLI ÇERÇEVE EFEKTİ --- */
+.btn-bold-outline:focus,
+.btn-bold-primary:focus,
+.navbar-bold .nav-link.active {
+    /* Bootstrap'in standart focus halkasını altın rengiyle değiştiriyoruz */
+    box-shadow: 0 0 0 0.25rem rgba(255, 215, 0, 0.5);
+    border-radius: 8px; /* Linklere çerçeve geldiğinde daha şık durması için */
+}
+
+/* Butonların kendi border-radius'unu korumasını sağla */
+.btn-bold-outline:focus,
+.btn-bold-primary:focus {
+    border-radius: 50px;
+}

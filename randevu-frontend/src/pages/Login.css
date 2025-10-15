@@ -1,0 +1,47 @@
+.login-container {
+    display: flex;
+    height: calc(100vh - 72px); /* Navbar yüksekliği çıkarıldı */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.login-card {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    min-height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.login-branding {
+    width: 45%;
+    background: linear-gradient(45deg, #0d6efd, #0d6efd);
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-branding h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.login-branding p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+.login-form {
+    width: 55%;
+    padding: 3rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

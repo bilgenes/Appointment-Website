@@ -1,0 +1,47 @@
+.register-container {
+    display: flex;
+    height: calc(100vh - 72px); /* Navbar yüksekliği çıkarıldı */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.register-card {
+    display: flex;
+    width: 100%;
+    max-width: 1000px; /* Kayıt formu daha geniş olabilir */
+    min-height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.register-branding {
+    width: 45%;
+    background: linear-gradient(45deg, #198754, #198754); /* Yeşil tonları */
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-branding h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.register-branding p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+.register-form {
+    width: 55%;
+    padding: 3rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
