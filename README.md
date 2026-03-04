@@ -1,3 +1,5 @@
+☆ RandevUpp projemizin yapay zeka ile basit bir temelini yaptığım program...
+
 🚀 RandevUpp - Modern Randevu Yönetim Sistemi
 RandevUpp, modern web teknolojileri kullanılarak geliştirilmiş, kullanıcı dostu ve kapsamlı bir randevu yönetim sistemidir. Bu proje, Laravel ile güçlü ve güvenli bir REST API backend'i ve React ile dinamik ve modern bir kullanıcı arayüzü (frontend) üzerine kurulmuştur.
 
